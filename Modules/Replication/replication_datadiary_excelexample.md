@@ -1,4 +1,4 @@
-# A simple data diary
+# A data diary of global chinese aid project
 
 A simple data diary for the [beginning of the Excel math review module](../MathReview/mathreview_with_excel.md) might look something like this:
 
