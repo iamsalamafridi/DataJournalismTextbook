@@ -25,11 +25,11 @@ I decided to use PivotTable for answering to my questions.
 ### The original spreadsheet
 Used the same spreadsheet by keeping the orignal and new spredsheet separatly. 
 
-categories sheet: Typed in the numbers from the 2016 actual, 2017 estimated and 2018 budget category totals.
+clean sheet: created new sheet with by just duplicating the orignal sheet with name "Clean" and renaming the old one with "Orignal".
 
-Selected them and checked against the totals shown at the bottom of the page. They were right, except for 2018. Then I realized I hadn't typed in the "contingency" line. I decided not to type it in at all.
+Selected 'even_split_commitments' column and checked against the totals shown at the bottom of the page with column 'project_total_commitments'. They were right!. Then I realized to use the PivotTable to answer my questions.
 
-Did the same thing for the individual programs on another sheet, but entered the categories into their own column, in a tidy fashion.
+Did the same thing for the each question sheet, ...............................
 
 Checked against the originals. They matched. Made sure to un-format any numbers so that if I want to export to another program, they'll come in correctly.
 
