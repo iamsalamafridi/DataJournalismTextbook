@@ -1,22 +1,29 @@
 # A data diary of global chinese aid project
 
-A simple data diary for the [beginning of the Excel math review module](../MathReview/mathreview_with_excel.md) might look something like this:
+A data diary of gobal chiinese aid project [beginning of the Excel math review module](../MathReview/mathreview_with_excel.md) is explained below:
 
 ### Data source
 
-Original file downloaded as a xx-page PDF from the Phoenix city budget site at https://www.phoenix.gov/budgetsite . The link was https://www.phoenix.gov/budgetsite/Budget%20Books/SummaryBudget2017-18.pdf. It's undated as far as I can tell.
+Original file downloaded as a ZIP folder from the Aid Data website site at https://www.aiddata.org/data/geocoded-chinese-global-official-finance-dataset. The link was http://docs.aiddata.org/ad4/files/GeoCoded_China_Data_Merged_Files.zip. It's undated as far as I can tell.
 
-The key tables were on pages 182-183 -- that is listed as the "Expenditures" by program.
+The key files were in ZIP folder three -- that is listed as below mentioned.
+1. AidDataTUFF_Methodology_1.3 (PDF format)
+2. GlobalChineseOfficialFinanceDataset_v1.0 (XLSX format)
+3. Readme_GlobalChineseOfficialFinanceDataset_v1.0 (PDF format)
 
-Using Acrobat, extracted out those pages into a new file, ~/Documents/examples/ phx_budget_2017_table.pdf
+Using Acrobat, extracted out those pages into a new file, 
+~/Documents/ChinaAidProject/ AidDataTUFF_Methodology_1.3
+~/Documents/ChinaAidProject/ Readme_GlobalChineseOfficialFinanceDataset_v1.0
 
-I tried to extract the tables using different programs: Able2Extract, Adobe Acrobat, Tabula. Then I realized that it is an image, not a text, pdf. Went back and OCR'd it using Adobe Acrobat, but when I sent it to a csv, it was a mess.
+Using Microsoft Excel 2013, extracted out excel sheet into a new file, 
+~/Documents/ChinaAidProject/ GlobalChineseOfficialFinanceDataset_v1.0
 
-I decided to type in the numbers myself rather than try to clean it up.
+I tried to extract the data table using Microsoft Excel program. Then I organized and structure the data into the new spread sheet keeping the orginal one in separate sheet.
+
+I decided to use PivotTable for answering to my questions.
 
 ### The original spreadsheet
-Created a blank spreadsheet called ~/Documents/examples/phx_budget_summary.xlsx .
-Added a notes page to document where I got it from.
+Used the same spreadsheet by keeping the orignal and new spredsheet separatly. 
 
 categories sheet: Typed in the numbers from the 2016 actual, 2017 estimated and 2018 budget category totals.
 
